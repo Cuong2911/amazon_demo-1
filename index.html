@@ -22,12 +22,15 @@
                 <nav class="navbar navbar-up">
                     <div class="navbar-wrap">
                         <div class="nav-left">
+                            <div class="nav-item nav-item-up nav-menu nav-menu__mobile l-0 m-0">
+                                <i class="nav-menu-icon nav-menu-icon__mobile fas fa-bars"></i>
+                            </div>
                             <div class="nav-item nav-item-up nav-logo">
                                 <a href="#" class="nav-item-link">
                                     <img src="./assets/image/nav_logo/Nav_logo.png" alt="">
                                 </a>
                             </div>
-                            <div class="nav-item nav-item-up nav-deliver-location">
+                            <div class="nav-item nav-item-up nav-deliver-location c-0">
                                 <a href="#" class="nav-item-link">
                                     <div class="nav-item-content">
                                         <i class="nav-item-content__icon-1 fas fa-map-marker-alt"></i>
@@ -40,7 +43,7 @@
                             </div>
                         </div>
                         <div class="nav-fill">
-                            <div class="navbar-wrap navbar-with-search">
+                            <div class="navbar-wrap navbar-with-search c-0">
                                 <div class="nav-left">
                                     <div class="nav-select-search">
                                         <div class="nav-select-search-show">
@@ -77,7 +80,7 @@
                             </div>
                         </div>
                         <div class="nav-right">
-                            <div class="nav-item nav-item-up nav-change-language">
+                            <div class="nav-item nav-item-up nav-change-language c-0">
                                 <a href="#" class="nav-item-link">
                                     <div class="nav-item-content">
                                         <img class="nav-change-language__img" src="./assets/image/Nav_Language/america.png" alt="">
@@ -85,7 +88,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="nav-item nav-item-up nav-account">
+                            <div class="nav-item nav-item-up nav-account c-0">
                                 <a href="#" class="nav-item-link">
                                     <div class="nav-item-content">
                                         <div class="nav-item-content__text">
@@ -96,7 +99,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="nav-item nav-item-up nav-return-order">
+                            <div class="nav-item nav-item-up nav-return-order c-0">
                                 <a href="#" class="nav-item-link">
                                     <div class="nav-item-content">
                                         <div class="nav-item-content__text">
@@ -106,12 +109,23 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="nav-item nav-item-up l-0 m-0">
+                                <div class="nav-sign__mobile">
+                                    <a href="#" class="nav-sign-link__mobile">
+                                        <span class="nav-sign-text__mobile">
+                                            Sign in
+                                            <i class="fas fa-chevron-right"></i>
+                                        </span>
+                                        <i class="nav-sign-icon__mobile far fa-user"></i>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="nav-item nav-item-up nav-cart">
                                 <a href="#" class="nav-item-link">
                                     <div class="nav-item-content">
                                         <i class="nav-item-content__icon-3 fas fa-shopping-cart"></i>
                                         <span class="nav-cart__count-produce">0</span>
-                                        <div class="nav-item-content__text">
+                                        <div class="nav-item-content__text c-0">
                                             <div class="nav-item-content__line-1 hidden">.</div>
                                             <div class="nav-item-content__line-2">Cart</div>
                                         </div>
@@ -121,8 +135,15 @@
                         </div>
                     </div>
                 </nav>
-
-                <div class="navbar-flyout">
+                <div class="navbar navbar-up l-0 m-0">
+                    <div class="navbar-with-search__mobile">
+                        <div class="nav-search-wrap__mobile">
+                            <input type="text" class="nav-search-input__mobile" placeholder="Search Amazon">
+                            <i class="nav-search-icon__mobile fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-flyout c-0">
                     
                     <div class="nav-flyout-wrap nav-flyout-wrap__change-language ">
                         <div class="nav-flyout-content nav-flyout__change-languge">
@@ -262,7 +283,7 @@
                 </div>
 
                 <nav class="navbar navbar-down">
-                    <div class="navbar-wrap">
+                    <div class="navbar-wrap c-0">
                         <div class="nav-left">
                             <div class="nav-item nav-item-down nav-menu">
                                 <a href="#" class="nav-item-link nav-menu-link">
@@ -311,8 +332,37 @@
                         <div class="nav-right">
                         </div>
                     </div>
+                    <div class="navbar-wrap-down__mobile l-0 m-0">
+                        <div class="nav-item nav-item-down nav-item__mobile">
+                            <a href="#" class="nav-item-link nav-item-link__mobile">
+                                Deals
+                            </a>
+                        </div>
+                        <div class="nav-item nav-item-down nav-item__mobile">
+                            <a href="#" class="nav-item-link nav-item-link__mobile">
+                                Amazon Basics
+                            </a>
+                        </div>
+                        <div class="nav-item nav-item-down nav-item__mobile">
+                            <a href="#" class="nav-item-link nav-item-link__mobile">
+                                Best Sellers
+                            </a>
+                        </div>
+                        <div class="nav-item nav-item-down nav-item__mobile">
+                            <a href="#" class="nav-item-link nav-item-link__mobile">
+                                Livestreams
+                            </a>
+                        </div>
+                    </div>
                 </nav>
 
+                <div class="navbar navbar-deliver__mobile l-0 m-0">
+                    <i class="nav-deliver-icon__mobile fas fa-map-marker-alt"></i>
+                    <span class="nav-deliver-text__mobile">
+                        Deliver to Vietnam
+                    </span>
+                </div>
+                
                 <div class="navbar-flyout-overlay"></div>
             </div>
 
@@ -333,19 +383,24 @@
             
                             <!-- slide images start -->
                             <div class="slide slide-first">
-                                <img src="./assets/image/Slide/1.jpg">
+                                <img class="c-0" src="./assets/image/Slide/1.jpg">
+                                <img class="l-0 m-0" src="./assets/image/Slide/mobile_1.jpg">
                             </div>
                             <div class="slide">
-                                <img src="./assets/image/Slide/2.jpg">
+                                <img class="c-0" src="./assets/image/Slide/2.jpg">
+                                <img class="l-0 m-0" src="./assets/image/Slide/mobile_2.jpg">
                             </div>
                             <div class="slide">
-                                <img src="./assets/image/Slide/3.jpg">
+                                <img class="c-0" src="./assets/image/Slide/3.jpg">
+                                <img class="l-0 m-0" src="./assets/image/Slide/mobile_3.jpg">
                             </div>
                             <div class="slide">
-                                <img src="./assets/image/Slide/4.jpg">
+                                <img class="c-0" src="./assets/image/Slide/4.jpg">
+                                <img class="l-0 m-0" src="./assets/image/Slide/mobile_4.jpg">
                             </div>
                             <div class="slide">
-                                <img src="./assets/image/Slide/5.jpg">
+                                <img class="c-0" src="./assets/image/Slide/5.jpg">
+                                <img class="l-0 m-0" src="./assets/image/Slide/mobile_5.jpg">
                             </div>
                             <!-- slide images end -->
             
@@ -377,7 +432,22 @@
                 <div class="page-container">
                     <div class="grid wide">
                         <div class="row">
-                            <div class="col l-3 m-3">
+                            <div class="col l-0 m-0 c-4" >
+                                <div class="page-h">
+                                    <img src="./assets/image/page_card/mobile_1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col l-0 m-0 c-4">
+                                <div class="page-h">
+                                    <img src="./assets/image/page_card/mobile_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col l-0 m-0 c-4" >
+                                <div class="page-h">
+                                    <img src="./assets/image/page_card/mobile_3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-0">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Gaming accessories
@@ -428,7 +498,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-0">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Shop by Category
@@ -479,7 +549,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-0">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Shop by Category
@@ -496,7 +566,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-0 c-12">
                                 <div class="page-card page-card-sign">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Sign in for the best experience
@@ -506,13 +576,13 @@
                                     </div>
                                 </div>
 
-                                <div class="page-card page-card-2">
+                                <div class="page-card page-card-2 c-0">
                                     <a href="#">
                                         <img src="./assets/image/page_card/10.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Lunar New Year
@@ -529,7 +599,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         AmazonBasics
@@ -546,7 +616,24 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-0 m-4 c-0">
+                                <div class="page-card" style="background-color: unset;">
+                                    <div class="page-card page-card-2">
+                                        <a href="#">
+                                            <img src="./assets/image/page_card/10.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="page-card page-card-sign">
+                                        <div class="page-card__heading modal-menu-content__heading">
+                                            Sign in for the best experience
+                                        </div>
+                                        <div class="btn-primary-1">
+                                            Sign in Securely
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Electronics
@@ -563,7 +650,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Easy returns
@@ -580,7 +667,24 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-12 m-12">
+                            <div class="col l-0 m-4 c-0">
+                                <div class="page-card">
+                                    <div class="page-card__heading modal-menu-content__heading">
+                                        Deals & Promotions
+                                    </div>
+                                    <div class="page-card__body">
+                                        <div class="page-subcard page-subcard__item-1">
+                                            <div class="grid">
+                                                <img src="./assets/image/page_card/45.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="page-card__foot">
+                                        <a href="#" class="primary-link-2">Shop now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-12 m-12 c-12">
                                 <div class="page-card__slider">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Top Sellers in Books for you
@@ -743,7 +847,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-12 m-12">
+                            <div class="col l-12 m-12 c-12">
                                 <div class="page-card__slider">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         International top sellers in Kitchen
@@ -911,7 +1015,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Shop activity trackers and smartwatches
@@ -928,7 +1032,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Comfy styles for her
@@ -937,7 +1041,7 @@
                                         <div class="page-subcard">
                                             <div class="grid">
                                                 <div class="row">
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/16.jpg" alt="">
@@ -945,7 +1049,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/17.jpg" alt="">
@@ -953,7 +1057,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/18.jpg" alt="">
@@ -961,7 +1065,7 @@
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/19.jpg" alt="">
@@ -979,7 +1083,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Kindle E readers
@@ -996,7 +1100,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-0 c-0">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Shop Pet supplies
@@ -1013,7 +1117,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-12 m-12">
+                            <div class="col l-12 m-12 c-12">
                                 <div class="page-card__slider">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Popular products in PC internationally
@@ -1151,7 +1255,101 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-12 m-12">
+                            <div class="col l-0 m-4 c-12">
+                                <div class="page-card">
+                                    <div class="page-card__heading modal-menu-content__heading">
+                                        Shop Pet supplies
+                                    </div>
+                                    <div class="page-card__body">
+                                        <div class="page-subcard page-subcard__item-1">
+                                            <div class="grid">
+                                                <img src="./assets/image/page_card/21.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="page-card__foot">
+                                        <a href="#" class="primary-link-2">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-0 m-4 c-12">
+                                <div class="page-card">
+                                    <div class="page-card__heading modal-menu-content__heading">
+                                        Gaming merchandise
+                                    </div>
+                                    <div class="page-card__body">
+                                        <div class="page-subcard">
+                                            <div class="grid">
+                                                <div class="row">
+                                                    <div class="col l-6 m-6 c-6">
+                                                        <div class="page-subcard__item">
+                                                            <a href="#" class="page-subcard__item-link">
+                                                                <img src="./assets/image/page_card/22.jpg" alt="">
+                                                                <span class="primary-text">Apparel</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-6 m-6 c-6">
+                                                        <div class="page-subcard__item">
+                                                            <a href="#" class="page-subcard__item-link">
+                                                                <img src="./assets/image/page_card/23.jpg" alt="">
+                                                                <span class="primary-text">Hats</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-6 m-6 c-6">
+                                                        <div class="page-subcard__item">
+                                                            <a href="#" class="page-subcard__item-link">
+                                                                <img src="./assets/image/page_card/24.jpg" alt="">
+                                                                <span class="primary-text">Action figures</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col l-6 m-6 c-6">
+                                                        <div class="page-subcard__item">
+                                                            <a href="#" class="page-subcard__item-link">
+                                                                <img src="./assets/image/page_card/25.jpg" alt="">
+                                                                <span class="primary-text">Mugs</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="page-card__foot">
+                                        <a href="#" class="primary-link-2">See more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-0 m-4 c-12">
+                                <div class="page-card">
+                                    <div class="page-card__heading modal-menu-content__heading">
+                                        Popular products in Wireless internationally
+                                    </div>
+                                    <div class="page-card__body">
+                                        <div class="page-subcard page-subcard__item-1">
+                                            <div class="grid">
+                                                <img src="./assets/image/page_card/46.jpg" alt="" style="width: 74%;">
+                                                <span class="primary-text" style="
+                                                padding-top: 12px;
+                                                font-size: 14px;
+                                                overflow: hidden;
+                                                display: -webkit-box;
+                                                -webkit-box-orient: vertical;
+                                                -webkit-line-clamp: 2;">
+                                                    Apple iPhone 12 Pro Max, 128GB,Pacific Blue - Unlocked( Renewed Pro)
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="page-card__foot">
+                                        <a href="#" class="primary-link-2">see more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-12 m-12 c-12">
                                 <div class="page-card__slider">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Top Sellers in Toys for you
@@ -1299,7 +1497,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-0 c-0">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Gaming merchandise
@@ -1350,7 +1548,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card page_card__nofooter">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Everyday essentials you might like
@@ -1359,28 +1557,28 @@
                                         <div class="page-subcard">
                                             <div class="grid">
                                                 <div class="row">
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/26.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/27.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/28.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/29.jpg" alt="">
@@ -1394,7 +1592,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         For your Fitness Needs
@@ -1411,7 +1609,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card page_card__nofooter">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Top Sellers in Baby Products for you
@@ -1420,28 +1618,28 @@
                                         <div class="page-subcard">
                                             <div class="grid">
                                                 <div class="row">
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/31.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/32.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/33.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/34.jpg" alt="">
@@ -1455,7 +1653,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-12 m-12">
+                            <div class="col l-12 m-12 c-12">
                                 <div class="page-card__slider">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Popular products in Wireless internationally
@@ -1533,7 +1731,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-12 m-12">
+                            <div class="col l-12 m-12 c-12">
                                 <div class="page-card__slider">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Popular products in Beauty internationally
@@ -1701,7 +1899,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         New arrivals in Toys
@@ -1718,7 +1916,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12">
                                 <div class="page-card page_card__nofooter">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Popular products in Apparel internationally
@@ -1727,28 +1925,28 @@
                                         <div class="page-subcard">
                                             <div class="grid">
                                                 <div class="row">
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/36.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/37.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/38.jpg" alt="">
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col l-6 m-6">
+                                                    <div class="col l-6 m-6 c-6">
                                                         <div class="page-subcard__item">
                                                             <a href="#" class="page-subcard__item-link">
                                                                 <img src="./assets/image/page_card/39.jpg" alt="">
@@ -1762,7 +1960,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-4 c-12>
                                 <div class="page-card">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         Shop Laptops & Tablets
@@ -1777,9 +1975,9 @@
                                     <div class="page-card__foot">
                                         <a href="#" class="primary-link-2">See more</a>
                                     </div>
-                                </div>
                             </div>
-                            <div class="col l-3 m-3">
+                            </div>
+                            <div class="col l-3 m-0 c-0">
                                 <div class="page-card page_card__nofooter">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         International top sellers in Home
@@ -1823,7 +2021,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-12 m-12">
+                            <div class="col l-12 m-12 c-12">
                                 <div class="page-card__slider">
                                     <div class="page-card__heading modal-menu-content__heading">
                                         International top sellers in Home Improvement
@@ -1955,7 +2153,7 @@
                 <div class="footer-container footer-up">
                     <div class="footer-content">
                         <div class="row">
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-3 c-6">
                                 <span>
                                     Get to Know Us
                                 </span>
@@ -1977,7 +2175,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-3 c-6">
                                 <span>
                                     Make Money with Us
                                 </span>
@@ -2008,7 +2206,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-3 c-6">
                                 <span>
                                     Amazon Payment Products
                                 </span>
@@ -2030,7 +2228,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col l-3 m-3">
+                            <div class="col l-3 m-3 c-6">
                                 <span>
                                     Let Us Help You
                                 </span>
@@ -2067,7 +2265,7 @@
                         </div>
                     </div>
                     <div class="footer-sub">
-                        <div class="footer-sub__logo">
+                        <div class="footer-sub__logo c-0">
                             <a href="#">
                                 <img src="./assets/image/nav_logo/Nav_logo.png" alt="">
                             </a>
@@ -2096,7 +2294,7 @@
 
                 <div class="footer-container footer-down">
                     <div class="footer-content">
-                        <div class="grid">
+                        <div class="grid c-0">
                             <div class="row">
                                 <div class="footer-down-item">
                                     <a href="#">
@@ -2460,7 +2658,7 @@
                             </option>
                         </select>
                     </div>
-                    <div class="modal-deliver__footer">
+                    <div class="modal-deliver__footer c-0">
                         <span class="btn-primary-1">
                             Done
                         </span>
@@ -2469,13 +2667,13 @@
 
                 <!-- modal menu -->
                 <div class="modal-menu">
-                    <div class="modal-menu__user-profile">
+                    <div class="modal-menu__user-profile c-0">
                         <div class="modal-menu__user-profile-avatar">
                             <i class="fas fa-user"></i>
                         </div>
                         <span>Hello, Sign in</span>
                     </div>
-                    <div class="modal-menu-body">
+                    <div class="modal-menu-body c-0">
                         <div class="modal-menu-content">
                             <span class="modal-menu-content__heading">
                                 Digital Content & Devices
@@ -2576,6 +2774,97 @@
                                     Sign In
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="modal-menu-wrap__mobile l-0 m-0">
+                        <div class="modal-menu-header__moblie">
+                            <div class="modal-menu-header-up__mobile nav-sign__mobile">
+                                <a href="#" class="nav-sign-link__mobile">
+                                    <span class="nav-sign-text__mobile" style="font-weight: 700;">
+                                        Sign in
+                                    </span>
+                                    <i class="nav-sign-icon__mobile far fa-user"></i>
+                                </a>
+                            </div>
+                            <div class="modal-menu-header-down__mobile">
+                                <span class="modal-menu-header-line-1">
+                                    Browse
+                                </span>
+                                <span class="modal-menu-header-line-2">
+                                    Amazon
+                                </span>
+                            </div>
+                        </div>
+                        <div class="modal-menu-body__mobile">
+                            <ul class="modal-menu-list__mobile">
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile font-weight-bold">
+                                        <span class="modal-menu-content__mobile">
+                                            Amazon Home
+                                        </span>
+                                        <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="modal-menu-seperate"></li>
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile font-weight-bold">
+                                        <span class="modal-menu-content__mobile">
+                                            Trending
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile">
+                                        <span class="modal-menu-content__mobile">
+                                            Movers & Shakers
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="modal-menu-seperate"></li>
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile font-weight-bold">
+                                        <span class="modal-menu-content__mobile">
+                                            Top Departments
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile">
+                                        <span class="modal-menu-content__mobile">
+                                            Home
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile">
+                                        <span class="modal-menu-content__mobile">
+                                            Health & Household
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile">
+                                        <span class="modal-menu-content__mobile">
+                                            Books
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile">
+                                        <span class="modal-menu-content__mobile">
+                                            PC
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="modal-menu-item__mobile">
+                                    <a href="#" class="modal-menu-link__mobile">
+                                        <span class="modal-menu-content__mobile">
+                                            See All Departments
+                                        </span>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -3,6 +3,7 @@
     --primary-color-2: #232f3f;
     --primary-color-3: #df9637;
     --primary-color-4: #364759;
+    --primary-color-5: #232f3f;
     --white-color: #fff;
 }
 
@@ -86,6 +87,16 @@ html {
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+@keyframes moveBottomToTop {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -317,3 +328,5 @@ html {
 .modal-menu-content__item span i {
     padding: 0;
 }
+
+/* modal deliver mobile */

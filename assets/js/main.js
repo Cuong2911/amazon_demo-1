@@ -17,6 +17,10 @@ function hiddenModalDeliver() {
 navDeliverLocation.addEventListener('click',showModalDeliver);
 modalOverlay.addEventListener('click',hiddenModalDeliver);
 
+// modal deliver mobile
+const navbarDeliverMobileBtn =
+document.querySelector('.navbar-deliver__mobile');
+navbarDeliverMobileBtn.addEventListener('click',showModalDeliver);
 // modal menu
 const modalMenu =
 document.querySelector('.modal-menu');
@@ -101,6 +105,8 @@ document.querySelectorAll('.nav-flyout-wrap__account .nav-flyout-wrap_js');
 for(var navflyoutWrapAccount of navflyoutWrapAccounts) {
     navflyoutWrapAccount.addEventListener('mouseover', hideNavFlyoutAccount);
 }
+navFlyoutOverlay.addEventListener('mouseover',hideNavFlyoutAccount);
+navFlyoutOverlay.addEventListener('mouseover', hideNavFlyoutChangLanguge);
 
 
 
@@ -172,4 +178,3 @@ function scrollHorizontally(val, i) {
     };
     sCont[i].style.left = currentScrollPosition + "px";
 };
-

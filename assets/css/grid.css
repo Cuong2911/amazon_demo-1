@@ -264,7 +264,7 @@
         margin-left: calc(var(--percent-col) * 11);
     }
 }
-@media (min-width: 1113px) {
+@media (min-width: 1024px) {
     .row {
         margin-left: -8px;
         margin-right: -8px;
@@ -383,7 +383,7 @@
         margin-left: calc(var(--percent-col) * 11);
     }
 }
-@media (min-width: 1024px) and (max-width: 1239px) {
+/* @media (min-width: 1024px) and (max-width: 1239px) {
     .wide {
         width: 984px;
     }
@@ -466,7 +466,7 @@
         max-width: calc(var(--percent-col) * 12);
     }
     /* column offset */
-    .wide .l-o-1 {
+    /* .wide .l-o-1 {
         margin-left: var(--percent-col);
     }
     .wide .l-o-2 {
@@ -499,4 +499,4 @@
     .wide .l-o-11 {
         margin-left: calc(var(--percent-col) * 11);
     }
-}
+} */
