@@ -245,7 +245,7 @@ html {
     width: 365px;
     bottom: 0;
     background-color:#fff;
-    animation: moveLeftToRight ease 0.3s;
+    animation: moveLeftToRight ease 1s;
     display: none;
 }
 .modal-menu__user-profile {
